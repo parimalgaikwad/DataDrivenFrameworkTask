@@ -1,0 +1,41 @@
+Tasks
+
+
+
+1)custome login test
+
+steps to follow :
+1)goto Url
+2)click on customer login 
+3)select any customer from dropdown and click on login button given below
+
+things to verify:
+welcome message contains customer name as per selected customer
+
+2)Deposit amount test case
+steps to follow :
+1)goto Url
+2)click on customer login 
+3)select any customer from dropdown and click on login button given below
+4)click on Deposit button
+5)Enter amount to be deposited in input box "Amount to be Deposited :"
+6)click on deposit button
+
+things to verify :
+1) "Deposit Successful" message appeared.
+2)Balance attribute at top of page changes as per deposited amount
+
+
+3)Withdrawl amount test case
+steps to follow :
+1)goto Url
+2)click on customer login 
+3)select any customer from dropdown and click on login button given below
+4)click on Withdrawl button
+5)Enter amount to be withdrawn in input box "Amount to be Withdrawn :"
+6)click on Withdraw button
+
+things to verify :
+1) "Transaction successful" message appeared.
+2)Balance attribute at top of page changes as per withdrawn amount
+

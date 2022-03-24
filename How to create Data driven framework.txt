@@ -1,0 +1,28 @@
+
+
+test site : https://www.way2automation.com/angularjs-protractor/banking/#/login
+
+creating framework
+
+1) create  packages under src/test/java
+	Base, testcases, rough, 
+   Also create packages under src/test/resources
+        Assets, Runner, Logs, Properties	
+
+name packages by orgnization names like com.appsierra.testcases or simply testcases
+
+
+2) Add depenedencies in POM.xml file eg seleium testNg Log4j Apache POI extent report
+   Add plugins like Surefire and compiler
+
+
+3) create properties files OR.property and Config.property also create testdata.xls file for excel data
+
+
+4) create TestBase to initialize webdriver, Properties files, Logs, Extent reports, Excel reader
+
+create setUp() and tearDown methods with @BeforeSuite Annotation 
+
+create properties in Config properties file browser and url
+
+based on that respective browser will get launched with resp url
