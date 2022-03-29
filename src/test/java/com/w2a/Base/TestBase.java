@@ -12,8 +12,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -29,9 +29,11 @@ public class TestBase {
 	public static WebDriverWait wait;
 	public static ExtentTest test;
 	public static ExtentReports report;
+	public static ExcelReader excel;
 
 
-	@BeforeSuite
+
+	@BeforeMethod
 	public static void setUp() {
 		log = Logger.getLogger(TestBase.class);
 		PropertyConfigurator
@@ -80,11 +82,11 @@ public class TestBase {
 		
 	}
 	
-	@AfterSuite
+	@AfterMethod
 	public static void tearDown() {
 		
 		try {
-			Thread.sleep(10000);
+			Thread.sleep(5000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

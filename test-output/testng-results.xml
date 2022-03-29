@@ -1,25 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="821" started-at="2022-03-24T11:26:16Z" finished-at="2022-03-24T11:26:16Z">
+  <suite name="Default suite" duration-ms="81406" started-at="2022-03-29T09:43:26Z" finished-at="2022-03-29T09:44:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="821" started-at="2022-03-24T11:26:16Z" finished-at="2022-03-24T11:26:16Z">
-      <class name="com.w2a.Testcases.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.Testcases.LoginTest@2e4b8173]" name="setUp" is-config="true" duration-ms="2343" started-at="2022-03-24T11:26:13Z" finished-at="2022-03-24T11:26:16Z">
+    <test name="Default test" duration-ms="81406" started-at="2022-03-29T09:43:26Z" finished-at="2022-03-29T09:44:47Z">
+      <class name="com.w2a.Testcases.BankManagerFunctions">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.Testcases.BankManagerFunctions@470f1802]" name="setUp" is-config="true" duration-ms="7685" started-at="2022-03-29T09:43:26Z" finished-at="2022-03-29T09:43:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="bankManagerLoginTest()[pri:0, instance:com.w2a.Testcases.LoginTest@2e4b8173]" name="bankManagerLoginTest" duration-ms="797" started-at="2022-03-24T11:26:16Z" finished-at="2022-03-24T11:26:16Z">
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.Testcases.BankManagerFunctions@470f1802]" name="addCustomerTest" duration-ms="10705" started-at="2022-03-29T09:43:34Z" data-provider="dp1" finished-at="2022-03-29T09:43:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parimal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gaikwad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4441351]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bankManagerLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.Testcases.LoginTest@2e4b8173]" name="tearDown" is-config="true" duration-ms="10120" started-at="2022-03-24T11:26:16Z" finished-at="2022-03-24T11:26:26Z">
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.Testcases.BankManagerFunctions@470f1802]" name="tearDown" is-config="true" duration-ms="5152" started-at="2022-03-29T09:43:44Z" finished-at="2022-03-29T09:43:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.w2a.Testcases.LoginTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.Testcases.BankManagerFunctions@470f1802]" name="setUp" is-config="true" duration-ms="2805" started-at="2022-03-29T09:43:49Z" finished-at="2022-03-29T09:43:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.Testcases.BankManagerFunctions@470f1802]" name="addCustomerTest" duration-ms="10203" started-at="2022-03-29T09:43:52Z" data-provider="dp1" finished-at="2022-03-29T09:44:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samaleswar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mirsra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[420420]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.Testcases.BankManagerFunctions@470f1802]" name="tearDown" is-config="true" duration-ms="5200" started-at="2022-03-29T09:44:02Z" finished-at="2022-03-29T09:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.Testcases.BankManagerFunctions@470f1802]" name="setUp" is-config="true" duration-ms="3311" started-at="2022-03-29T09:44:08Z" finished-at="2022-03-29T09:44:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.Testcases.BankManagerFunctions@470f1802]" name="addCustomerTest" duration-ms="10550" started-at="2022-03-29T09:44:11Z" data-provider="dp1" finished-at="2022-03-29T09:44:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abhishek]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shukla]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[110110]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.Testcases.BankManagerFunctions@470f1802]" name="tearDown" is-config="true" duration-ms="5174" started-at="2022-03-29T09:44:21Z" finished-at="2022-03-29T09:44:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.Testcases.BankManagerFunctions@470f1802]" name="setUp" is-config="true" duration-ms="3710" started-at="2022-03-29T09:44:27Z" finished-at="2022-03-29T09:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.Testcases.BankManagerFunctions@470f1802]" name="addCustomerTest" duration-ms="11614" started-at="2022-03-29T09:44:30Z" data-provider="dp1" finished-at="2022-03-29T09:44:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nikath]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fatima]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111333]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.Testcases.BankManagerFunctions@470f1802]" name="tearDown" is-config="true" duration-ms="5215" started-at="2022-03-29T09:44:42Z" finished-at="2022-03-29T09:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.Testcases.BankManagerFunctions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
